@@ -9,11 +9,7 @@ licenses := Seq(
 
 resolvers ++= Seq(
   "org.bukkit" at "http://repo.bukkit.org/content/groups/public/",
-  "spigot-repo" at "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"
-  //"localrepo1" at "file://myrepo"
-  )
+  "spigot-repo" at "https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
 
 libraryDependencies ++= Seq(
-  "org.spigotmc" % "spigot-api" % "1.8.8-R0.1-SNAPSHOT"
-  // "org.spigotmc" % "spigot" % "1.8.8"
-  )
+  "org.spigotmc" % "spigot-api" % "1.8.8-R0.1-SNAPSHOT" exclude("net.md-5", "bungeecord-chat"))
