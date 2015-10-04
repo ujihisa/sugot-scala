@@ -12,4 +12,6 @@ resolvers ++= Seq(
   "spigot-repo" at "https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
 
 libraryDependencies ++= Seq(
-  "org.spigotmc" % "spigot-api" % "1.8.8-R0.1-SNAPSHOT" exclude("net.md-5", "bungeecord-chat"))
+  "org.spigotmc" % "spigot-api" % "1.8.8-R0.1-SNAPSHOT" exclude("net.md-5", "bungeecord-chat"),
+   "org.scalatest" %% "scalatest" % "2.2.4" % "test")
+
