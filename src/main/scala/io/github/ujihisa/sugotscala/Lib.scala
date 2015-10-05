@@ -1,4 +1,4 @@
-package io.github.ujihisa.SugotScala
+package io.github.ujihisa.sugotscala
 
 import org.bukkit.{Bukkit, Location}
 import org.bukkit.plugin.Plugin

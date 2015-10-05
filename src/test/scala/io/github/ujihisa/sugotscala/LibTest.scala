@@ -1,4 +1,4 @@
-package io.github.ujihisa.SugotScala
+package io.github.ujihisa.sugotscala
 
 import org.scalatest._
 
